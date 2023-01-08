@@ -1,0 +1,294 @@
+.homeimg {
+    background-image: url(/images/fff.jpg);
+    height: 1080px;
+    width: 1920;
+    
+}
+
+.last {
+  color: white;
+  font-weight: 700;
+  max-width: 900px;
+  text-align: justify;
+  padding-top: 30px;
+}
+
+.all {
+  text-align: center;
+  padding-left: 300px;
+}
+
+.step {
+  
+  text-align: justify;
+  font-size: 20px;
+  max-width: 900px;
+  padding-top: 15px;
+  
+}
+
+.ico {
+  padding-top: 20px;
+}
+
+.steps {
+  text-align: left;
+  color: white;
+  font-size: 28px;
+}
+
+.cont {
+  display: flex;
+  max-width: 1900px;
+  min-height: 700px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.flex {
+  width: auto;
+  height: 450px;
+  object-fit: cover;
+  object-position: center;
+  padding: 7px; 
+  border-radius: 25px; 
+}
+
+
+.scroll {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: auto;
+    text-align: center;
+    margin-top: 800px;
+}
+
+.simg {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 60px;
+    width: auto;   
+}
+
+#ab {
+    background-color: #333;
+    color: white;
+    
+}
+
+.hid {
+    color: grey;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    height: 20pxpx;
+    color: white;
+    padding-top: 10px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 400px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #e6e6e6;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.alf {
+    font-size: 21px;
+}
+
+.alfi {
+    
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+body.main {
+    background-image: url(/images/header.jpg);
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 700;
+
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+
+  .container {
+    display: flex;
+    align-items: center; 
+    justify-content: center
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%;
+    text-align: center;
+  }
+  
+  .text {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    max-width: 900px;
+    margin-right: 60px;
+    width: min(100% - 15px, 840px);
+    margin-inline: auto;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    font-weight: 700;
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(43,124,116);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .slogan {
+    color: rgb(43,124,116);
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 55px;
+    font-style: italic;
+  }
+
+  .disclaimer:link {
+    color: rgb(43,124,116);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .disclaimer:visited {
+    color: rgb(43,124,116);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .disclaimer:hover {
+    color: rgb(43,124,116);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .disclaimer:active {
+    color: rgb(43,124,116);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .mail:link {
+    color: rgb(43,124,116);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .mail:visited {
+    color: rgb(43,124,116);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .mail:hover {
+    color: rgb(43,124,116);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .mail:active {
+    color: rgb(43,124,116);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+  .disclaimer {
+    margin-left: 15px;
+  }
+  
+  .body {
+    background-color: #333;
+  }
